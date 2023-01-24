@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #222;
+}
+
+/*######### End of base #########*/
+
+
+/*######### Filter start #########*/
+.filter {
+    padding: 25px 0;
+    box-shadow: 0px 0px 13px #22222240;
+}
+
+.filter .title {
+    font-weight: 500;
+}
+
+.filter p {
+    font-weight: 500;
+    /* font-size: 18px; */
+}
+
+.filter select {
+    min-height: 42px;
+    border-radius: 0;
+    border: 1px solid #E8E8E8;
+    /* font-size: 18px; */
+    font-weight: 500;
+    line-height: 42px;
+    padding-block: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .grid-btn-box {
+        position: absolute;
+        top: -15px;
+        right: 0;
+    }
+}
+
+/*######### End of filter #########*/
+
+
+/*######### ? start #########*/
+/*######### End of ? #########*/

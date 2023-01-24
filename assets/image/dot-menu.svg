@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_22" data-name="Group 22" transform="translate(-1593 -607)">
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="50" height="50" transform="translate(1593 607)" fill="#f0b95e"/>
+    <g id="Group_20" data-name="Group 20" transform="translate(1605 619)">
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="7" height="7" fill="#222"/>
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="7" height="7" transform="translate(0 10)" fill="#222"/>
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="7" height="7" transform="translate(0 20)" fill="#222"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="7" height="7" transform="translate(10)" fill="#222"/>
+      <rect id="Rectangle_31" data-name="Rectangle 31" width="7" height="7" transform="translate(10 10)" fill="#222"/>
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="7" height="7" transform="translate(10 20)" fill="#222"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="7" height="7" transform="translate(20)" fill="#222"/>
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="7" height="7" transform="translate(20 10)" fill="#222"/>
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="7" height="7" transform="translate(20 20)" fill="#222"/>
+    </g>
+  </g>
+</svg>
