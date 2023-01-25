@@ -53,12 +53,83 @@ body {
     .grid-btn-box {
         position: absolute;
         top: -15px;
-        right: 0;
+        right: 15px;
     }
 }
 
 /*######### End of filter #########*/
 
 
-/*######### ? start #########*/
-/*######### End of ? #########*/
+/*######### product-table start #########*/
+
+.product-table .expand-btn {
+    border-right: 1px solid #22222210;
+    padding: .5rem .75rem;
+    cursor: pointer;
+}
+
+.product-table .expand-btn:before {
+    font-family: FontAwesome;
+    content: "\f068";
+    color: #F0B95E;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.product-table .expand-btn.collapsed:before {
+    content: "\2b";
+}
+
+.product-table th {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.product-table th:first-child {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.product-table td {
+    vertical-align: middle;
+    font-weight: 500;
+    text-align: center;
+}
+
+.product-table td.title {
+    max-width: 300px;
+    text-align: left;
+}
+
+.table-striped>thead>tr:nth-of-type(odd)>*,
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+}
+
+.table-striped>tbody>tr:nth-of-type(4n + 1)>* {
+    --bs-table-accent-bg: white;
+}
+
+.product-table td .fa-star {
+    color: #F0B95E;
+}
+
+.product-table .expand-content ul li {
+    padding: 7px 0;
+}
+
+.product-table .expand-content ul li::marker {
+    color: #F0B95E;
+}
+
+@media screen and (min-width: 992px) {
+
+    .product-table .expand-content p,
+    .product-table .expand-content ul li {
+        font-size: 18px;
+    }
+}
+
+/*######### End of product-table #########*/
